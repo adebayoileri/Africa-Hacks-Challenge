@@ -1,7 +1,11 @@
 import React from 'react';
 import logo from './spacex.png';
 import './App.css';
-
+import {ApolloClient} from 'apollo-boost';
+import {ApolloProvider} from 'react-apollo';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Launches from './components/Launches';
+import Launch from './components/Launch';
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
