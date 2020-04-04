@@ -5,7 +5,10 @@
   "main": "schema.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "server:restart": "nodemon server.js",
+    "frontend":"npm run --prefix frontend",
+    "start:dev":"concurrently \"npm run server:restart\" \"npm run frontend\" "
   },
   "repository": {
     "type": "git",
