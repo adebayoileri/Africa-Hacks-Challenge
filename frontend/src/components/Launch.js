@@ -32,9 +32,7 @@ export class Launch extends Component {
                     {
                         ({loading, error, data}) => {
                             if(loading) return <h4>Loading.....</h4>
-                            if(error) console.log(error)
-{/* 
-                           console.log(data)  */}
+                            if(error) return <h5>Error Occured loading data...</h5>
                         const {mission_name, flight_number, launch_year,launch_success, rocket:{
                             rocket_id,
                             rocket_name,
