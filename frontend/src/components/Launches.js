@@ -24,7 +24,7 @@ export class Launches extends Component {
                     {
                         ({ loading, error, data })=>{
                             if(loading) return <h5>Loading...</h5>
-                            if(error) return <h5>Error loading data...</h5>
+                            if(error) console.log(data)
                             console.log(data)
 
                             return <React.Fragment>
