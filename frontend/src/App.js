@@ -6,6 +6,8 @@ import {ApolloProvider} from 'react-apollo';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Launches from './components/Launches';
 import Launch from './components/Launch';
+import { InMemoryCache } from "apollo-cache-inmemory";
+import { HttpLink } from "apollo-link-http";
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
