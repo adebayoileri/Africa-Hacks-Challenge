@@ -1,0 +1,28 @@
+{
+  "name": "Africa-Hacks-Challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "schema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adebayoileri/Africa-Hacks-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adebayoileri/Africa-Hacks-Challenge/issues"
+  },
+  "homepage": "https://github.com/adebayoileri/Africa-Hacks-Challenge#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  }
+}
