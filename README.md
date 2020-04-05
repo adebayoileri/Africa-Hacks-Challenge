@@ -25,7 +25,7 @@ Create a simple react App with Create React App or others with two pages
   to run on local machine 
 Clone the repo to your local machine 
 - Run `npm install` to install all dependencies
-- Run `npm start` to start up server
+- Run `npm run server:restart` to start up server
 - Run `npm run test` for testing 
 
   
